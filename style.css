@@ -46,15 +46,25 @@ li {
 
 .btn {
     position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+    top: 5px;
+    left: 140px;
+    height: 40px;
+    width: 60px;
+    border-radius: 0.6em;
+    font-size: 1rem;
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
     cursor: pointer;
+}
+
+.btn:hover {
+    height: 45px;
+    width: 65px;
 }
 
 .btn:focus {
